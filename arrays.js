@@ -183,3 +183,29 @@
 // Mapping an Array
 // was too lazy to continue and write code at that moment
 
+// //Joining Arrays again by mistake
+
+// // const numbers = [1, 2, 3, 4, 5];
+// // const joinedNumbers = numbers.join(', ');
+// // console.log(joinedNumbers);
+
+// const courseName = 'JavaScript for Begs';
+// const parts = courseName.split(' ');
+// console.log(parts);
+
+
+// Reducing an Array
+
+// const numebrs = [1, 10, 5, 14];
+// // let sum = 0;
+// //for (const num of numbers)
+// // sum += num;
+// // console.log( Total sum: $(sum));
+
+// const sum = numebrs.reduce((accumulator, currentValue)=> {
+//     return accumulator + currentValue;
+// }, 0);
+// console.log(`Total sum: ${sum}`);
+
+
+//
