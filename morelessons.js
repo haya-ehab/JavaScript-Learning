@@ -168,11 +168,69 @@
 // and returns the max of the two
 
 
-let number = max(1, 2);
-console.log(number);
-function max(a, b) {
+// let number = max(1, 2);
+// console.log(number);
+// function max(a, b) {
 
-if (a > b ) return a;
-else return b;
+// if (a > b ) return a;
+// else return b;
 
-}
+// }
+
+// exercise
+
+// function isLandscape(width, height) {
+
+//     if (width > height) return true;
+//     else return false;
+// }
+
+
+// exercise - fizzbuzz
+
+// divisible by 3 => fizz
+// divisible by 5 => buzz 
+// divisible by both 3 , 5 => fizzbuzz
+
+// const output = fizzbuzz(15);
+// console.log(output);
+
+// function fizzbuzz(input) {
+
+//   if (typeof input !== 'number')
+//     return 'Not a number';
+
+// if ((input % 3 === 0) && (input % 5 === 0))
+//     return 'fizzbuzz';
+
+//   if (input % 3 === 0 )
+//     return 'fizz';
+ 
+//   if (input % 5 === 0)
+//     return 'buzz';
+
+  
+
+// }
+
+// exercise *not completed*
+
+
+// checkSpeed(60);
+
+
+// function checkSpeed(speed) {
+
+//  if (speed <= 70) 
+//     return 'ok';
+
+//    else {
+//    const points = Math.floor((speed - 70) / 5);
+// if (points >= 12)
+//     console.log('suspeneded');
+// else 
+// console.log('Points', points);
+//    }
+
+// }
+
