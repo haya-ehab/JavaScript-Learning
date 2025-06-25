@@ -85,3 +85,45 @@
 // return address1 === address2;
 
 // }
+
+// exercise 1 on Arrays
+
+// const numbers = arrayFromRange(-10, -4);
+
+// console.log(numbers);
+
+// function arrayFromRange(min, max) {
+//     const output = [];
+//     for (let i = min; i <= max; i++)
+//         output.push(i);
+//     return output;
+// }
+
+// exercise 2 on Arrays
+
+// const numbers = [1, 2, 3, 4,];
+
+// console.log(numbers.includes(1));
+
+// function includes(array, searchElement) {
+//       for (let element of array)
+//     if (element === searchElement)
+//         return true;
+
+// else 
+// return false;
+// }
+
+
+// exercise 3 on Arrays (not completed)
+
+// const numbers = [1, 2, 3, 4, 1, 1];
+
+// const output = except(numbers, [1, 2]);
+
+// console.log(output);
+
+// function except(array, excluded) {
+
+
+// }

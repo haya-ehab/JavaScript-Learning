@@ -176,4 +176,15 @@
 
 // console.log(html);
 
+// Reducing An Array 
 
+const numbers = [1, -1, 2, 3];
+
+console.log(sum);
+
+const sum = numbers.reduce((accumaltor, currentValue) => {
+    return accumaltor + currentValue;
+
+}, 0);
+
+console.log(sum);
