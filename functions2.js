@@ -2,17 +2,17 @@
 
 // Function Declartion
 
-function walk() {
+// function walk() {
 
-    console.log('walk');
+//     console.log('walk');
 
-}
+// }
 
 // Function Expression
 // let or const
-let run = function() {
-    console.log('run');
-};
+// let run = function() {
+//     console.log('run');
+// };
 
 
 // Hoisting
