@@ -3,7 +3,7 @@
 # 📚 Learning JavaScript
 
 Welcome to my JavaScript learning journey! 🚀  
-This repository contains my notes, code snippets, mini-projects, and exercises as I learn and practice JavaScript — the language of the web.
+This repository contains my notes, code snippets, mini-projects, and exercises as I learn and practice JavaScript — the language of the web. I Also Used JavaScript By Mosh 
 
 ---
 ## 🧠 Topics Covered
