@@ -34,3 +34,96 @@
 
 // The Rest Operator
 
+// function sum(discount, ...prices) {
+//     let total = 0;
+
+//      return args.reduce((a, b) => a + b);
+
+// }
+
+// console.log(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+
+// Default Parameters
+
+// function interest(principal, rate, years) {
+
+//     rate = rate || 3.5;
+//     years = years || 5;
+//     return principal * rate / 100 * years;
+// }
+
+// console.log(interest(1000));
+
+// Getters and Setters
+
+// const person = {
+
+//     firstname: 'Haya',
+//     lastname: 'Ehab',
+//     get fullName() {
+//         return `${person.firstname} ${person.lastname}`
+
+//     },
+//     set fullName(value) {
+//         const parts = value.split(' ');
+//         this.firstName = parts[0];
+//         this.firstName = parts[1];
+//     }
+// };
+
+
+// person.fullName = 'John Smith';
+
+// // getters => access properties
+// // setters => changes or mutate them
+
+// console.log(person);
+
+
+// Try and Catch
+
+// const person = {
+//     firstNmae: 'Haya',
+//     lastName: 'Ehab',
+//     set fullName(value) {
+//         if (typeof value !== 'string') return;
+
+//         const parts = value.split(' ');
+//         this.firstName = parts[0];
+//         this.lastName = parts[1];
+//     }
+// };
+
+// try {
+
+//     person.fullName = '';
+// }
+
+// catch (e) {
+//     alert(e);
+// }
+
+
+// console.log(person);
+
+
+// Local vs Global Scope
+
+// GLobal Scope means: this code can be accessible everywhere
+// Local Scope means: Only accessible inside that function or block.
+
+// Global Scope
+const color = 'red';
+
+function start() {
+    const message = 'hi';
+    // Local Scope
+    const color = 'blue';
+    console.log(color);
+}
+
+function stop() {
+    const messgae = 'bye';
+}
+
+start()
