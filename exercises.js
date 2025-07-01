@@ -127,3 +127,25 @@
 
 
 // }
+
+// exercise 1 on Functions 
+
+// console.log(sum(1, 2, 3, 4));
+//  function sum(...items) {
+//     if (items.length === 1 && Array.isArray(items[0]))
+//         items = [...items[0]];
+//     return items.reduce((a, b) => a + b);
+//  }
+
+// Exercise 2 on Functions
+
+// Create a function that takes the radius of a circle and returns its area.
+// Area= π×r^2
+// Math.PI * radius * radius
+
+// function areaOfCircle(radius) {
+//     return Math.PI * radius * radius;
+// }
+
+// console.log(areaOfCircle(1));
+// console.log(areaOfCircle(5));
