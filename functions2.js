@@ -113,17 +113,74 @@
 // Local Scope means: Only accessible inside that function or block.
 
 // Global Scope
-const color = 'red';
+// const color = 'red';
 
-function start() {
-    const message = 'hi';
-    // Local Scope
-    const color = 'blue';
-    console.log(color);
-}
+// function start() {
+//     const message = 'hi';
+//     // Local Scope
+//     const color = 'blue';
+//     console.log(color);
+// }
 
-function stop() {
-    const messgae = 'bye';
-}
+// function stop() {
+//     const message = 'bye';
+// }
 
-start()
+// start()
+
+// Let vs Var 
+// Var: Function-Scoped Works. only inside a Function.
+// Let: Block-Scoped. Works only inside a {} Block.
+
+// function start() {
+//     for (var i = 0; i < 5; i++) {
+//         if (true) {
+//             var color = 'red';
+//         }
+//     }
+//     console.log(color);
+// }
+
+// start();
+
+// The This Keyword
+
+// method -> obj
+
+// const video = {
+//     title: 'a',
+//     play() {
+//         console.log(this);
+//     }
+// };
+// video.stop = function() {
+//     console.log(this);
+// };
+// video.stop();
+
+// // function -> global (window, global)
+
+// const video = {
+//     title: 'a',
+//     play() {
+//         console.log(this);
+//     }
+// };
+
+// function Video(title) {
+//     this.title = title;
+//     console.log(this);
+// }
+
+// const v = new Video('b'); // {}
+
+//  Changing This
+
+// function playVideo() {
+//     console.log(this);
+// }
+
+// playVideo.call({ name: 'Haya'}, 1, 2, 3);
+// playVideo.apply({ name: 'Haya'});
+// playVideo.bind({ name: 'Haya'})
+// playVideo();
