@@ -13,10 +13,6 @@ This repository contains my notes, code snippets, mini-projects, and exercises a
 - ✅ Functions and Scope
 - ✅ Arrays and Objects
 - ✅ Loops and Conditionals
-- ✅ DOM Manipulation
-- ✅ Events and Event Listeners
-- ✅ Fetch API and JSON
-- ✅ Promises & Async/Await
 - ✅ ES6+ Features
 - 🚧 More coming soon...
 
