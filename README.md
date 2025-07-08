@@ -33,3 +33,9 @@ Feel free to explore, fork, and learn along with me! 😊
    ```bash
    git clone https://github.com/your-username/learning-javascript.git
 
+   ## 📜 License
+
+This repository is for **personal learning purposes only**, based on  
+["Ultimate JavaScript Course"](https://codewithmosh.com) by Mosh Hamedani.  
+All rights to the original course content belong to Code with Mosh.
+
